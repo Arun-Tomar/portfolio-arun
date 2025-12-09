@@ -941,3 +941,21 @@ footer span a:hover{
     padding-bottom: 40px;
 }
 
+@media (max-width: 600px) {
+  .services .title::after,
+  .teams .title::after {
+    font-size: 14px;     /* ✅ Smaller subtitle */
+    bottom: -18px;      /* ✅ Push it down */
+  }
+}
+
+@media (max-width: 600px) {
+  .services .title::after,
+  .teams .title::after {
+    font-size: 13px;
+    bottom: -20px;
+  }
+}
+
+
+
